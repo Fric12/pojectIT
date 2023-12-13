@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Замініть 'YOUR_BOT_TOKEN' на реальний токен свого бота
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '6920885849:AAGGDOJbSuYXoBrRuMHHWzIH0GAODXcZUzI'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Ви підписалися на найкращого бота! Не використовуйте команду "/stop"!!!😃')
